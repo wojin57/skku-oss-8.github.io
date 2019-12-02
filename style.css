@@ -21,6 +21,10 @@ header {
 #names {
   font-style: italic;
 }
+#github_logo {
+  width: 30px;
+  height: 30px;
+}
 
 .page {
   background-color: gray;
