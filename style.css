@@ -1,0 +1,66 @@
+body {
+  padding: 20px;
+  background-color: black;
+  width: auto;
+  height: 100%;
+}
+
+header {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 100px;
+}
+
+#title {
+  font-size: 50px;
+}
+#class {
+  font-size: 25px;
+}
+#names {
+  font-style: italic;
+}
+
+.page {
+  background-color: gray;
+  margin: 20px;
+}
+.main_nav {
+  font-size: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#main_nav_list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.main_nav_li {
+  text-align: center;
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 5px;
+}
+.sub_nav {
+  grid-column: 1;
+  background-color: white;
+  margin: 10px;
+}
+.contents {
+  grid-column: 2;
+}
+
+#sub_nav_list {
+  list-style: none;
+}
+.sub_nav_li {
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+}
