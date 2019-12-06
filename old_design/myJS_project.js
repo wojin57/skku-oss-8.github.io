@@ -12,6 +12,7 @@ content1.style.display = "block";
 content2.style.display = "none";
 content3.style.display = "none";
 content4.style.display = "none";
+sub_nav1.style.backgroundColor = "gray";
 
 sub_nav1.addEventListener('click', ShowSubNav1);
 sub_nav2.addEventListener('click', ShowSubNav2);
@@ -23,6 +24,10 @@ function ShowSubNav1() {
   content2.style.display = "none";
   content3.style.display = "none";
   content4.style.display = "none";
+  sub_nav1.style.backgroundColor = "gray";
+  sub_nav2.style.backgroundColor = "white";
+  sub_nav3.style.backgroundColor = "white";
+  sub_nav4.style.backgroundColor = "white";
 }
 
 function ShowSubNav2() {
@@ -30,6 +35,10 @@ function ShowSubNav2() {
   content2.style.display = "block";
   content3.style.display = "none";
   content4.style.display = "none";
+  sub_nav1.style.backgroundColor = "white";
+  sub_nav2.style.backgroundColor = "gray";
+  sub_nav3.style.backgroundColor = "white";
+  sub_nav4.style.backgroundColor = "white";
 }
 
 function ShowSubNav3() {
@@ -37,6 +46,10 @@ function ShowSubNav3() {
   content2.style.display = "none";
   content3.style.display = "block";
   content4.style.display = "none";
+  sub_nav1.style.backgroundColor = "white";
+  sub_nav2.style.backgroundColor = "white";
+  sub_nav3.style.backgroundColor = "gray";
+  sub_nav4.style.backgroundColor = "white";
 }
 
 function ShowSubNav4() {
@@ -44,4 +57,8 @@ function ShowSubNav4() {
   content2.style.display = "none";
   content3.style.display = "none";
   content4.style.display = "block";
+  sub_nav1.style.backgroundColor = "white";
+  sub_nav2.style.backgroundColor = "white";
+  sub_nav3.style.backgroundColor = "white";
+  sub_nav4.style.backgroundColor = "gray";
 }
